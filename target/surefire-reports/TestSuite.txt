@@ -1,12 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 105.12 s <<< FAILURE! - in TestSuite
-afterSuite(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 14.9 s  <<< FAILURE!
-net.lingala.zip4j.exception.ZipException: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
-Caused by: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 1, Time elapsed: 162.821 s <<< FAILURE! - in TestSuite
+redirectToLoginPage(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 12.601 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [] but found [Customer Login]
 
-afterSuite(com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 22.765 s  <<< FAILURE!
-net.lingala.zip4j.exception.ZipException: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
-Caused by: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+afterMethod(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 14.721 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+
+homePageValidationAfterLogin(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 54.966 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+
+afterMethod(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 56.584 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+
+homePageValidationAfterLogin(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 61.929 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+
+afterMethod(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 63.409 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
 

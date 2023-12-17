@@ -51,9 +51,6 @@ import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 import com.aventstack.extentreports.Status;
 import com.itextpdf.text.DocumentException;
-import net.lightbody.bmp.BrowserMobProxy;
-import net.lightbody.bmp.BrowserMobProxyServer;
-import net.lightbody.bmp.client.ClientUtil;
 import net.lingala.zip4j.exception.ZipException;
 
 @Listeners({ TestMethodListener.class })
@@ -104,7 +101,6 @@ public class TestCaseBase {
 	protected String projectCode;
 	private String sampleSuite;
 	public String newStatus;
-	public BrowserMobProxy proxy;
 	private String rPlatformName;
 	private String rPlatformVersion;
 	private String rBrowserVersion;
@@ -176,7 +172,7 @@ public class TestCaseBase {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 			//pdf_new.defaultContent(sampleSuite, environment);
-			setDefaultTestData();
+			//setDefaultTestData();
 	}
 
 	@BeforeMethod(alwaysRun = true)
@@ -281,9 +277,7 @@ public class TestCaseBase {
 		else if (browserFlag.equals("edgeHeadless")) {
 			setUpEdgeHeadless(onGrid);
 		}
-		else if (browserFlag.equals("chromeWebInapp")) {
-			setUpChromeWebInApp(onGrid);
-		}
+		
 	}
 
 	private void setupBrowserPerPercentageDesktop() throws Exception {
@@ -527,7 +521,7 @@ public class TestCaseBase {
 	/**
 	 * Objective: Close the opened browser which was opened by WebDriver
 	 */
-	/*@AfterClass(alwaysRun = true)
+	@AfterClass(alwaysRun = true)
 	public void tearDown(ITestContext context) throws Exception {
 		String[] property = System.getProperty("user.dir").split("\\\\");
 		String projectName = property[property.length - 1];
@@ -547,7 +541,7 @@ public class TestCaseBase {
 		// if (OS.isFamilyWindows())
 		// Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
 
-	}*/
+	}
 
 	private void setUpFirefoxWithDefaultProfile(String onGrid) throws Exception {
 		FirefoxOptions options = new FirefoxOptions();
@@ -837,31 +831,7 @@ public class TestCaseBase {
 		driver_original = new ChromeDriver(options);
 		driver_original.manage().window().setSize(dem);
 	}
-	private void setUpChromeWebInApp(String onGrid) throws Exception {
-		
-		
-		proxy = new BrowserMobProxyServer();
-	 	proxy.start(0);
-	 	Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
-	 	
-		ChromeOptions options = new ChromeOptions();
-		
-		//options.addArguments("--verbose");
-		options.addArguments("--whitelisted-ips");
-        options.addArguments("--headless");
-        options.addArguments("--no-sandbox");
-		options.addArguments("--window-size=1920x1080");
-        options.addArguments("--start-maximized");
-		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--disable-popup-blocking");
-		options.addArguments("--remote-allow-origins=*");
-		options.addArguments("user-agent=test-automation-96cbdf45-2232-48cd-be0c-ceb7942126b0");
-		options.setAcceptInsecureCerts(true);
-		options.setCapability(CapabilityType.PROXY, seleniumProxy);
-		driver_original = new ChromeDriver(options);
-		driver_original.manage().window().maximize();
-		
-	}
+	
 
 	
 	private void setUpChromeWin32Mobile(String onGrid) throws Exception {
@@ -999,12 +969,12 @@ public class TestCaseBase {
 	 * example, a class "TC01BingWebSearch_High" will get a testdata file name
 	 * "testdata_TC_01_BingWebSearch" 2.load this properties file
 	 */
-	private void setDefaultTestData() {
+	/*private void setDefaultTestData() {
 		String s = this.getClass().getName();
 		String filename = ("testdata_" + s.split("\\.")[s.split("\\.").length - 1] + ".properties");
 		log.debug("Setting TestData file = " + filename);
 		TestData.load(filename);
-	}
+	}*/
 	
 	private void zipAndMail() throws ZipException
 	{

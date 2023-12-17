@@ -1,0 +1,193 @@
+23:35:03.227 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+23:35:03.231 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:35:03.450 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+23:35:03.521 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:35:03.528 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+23:35:04.001 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:35:12.801 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:35:18.177 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:35:18.633 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bfkzneg8fm0wkmp3u4p19j27jx9hmj1al6sjbxtd to view build report, insights, and many more debugging information all at one place!
+
+23:35:21.008 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+23:43:58.975 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+23:43:58.979 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:43:59.217 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+23:43:59.291 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:43:59.299 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+23:43:59.732 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:44:05.604 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:44:11.292 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:44:12.571 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/pw7tytb1uarj5igvhzyxf86n3g5v7nm2hitv2ibz to view build report, insights, and many more debugging information all at one place!
+
+23:44:14.872 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:11:43.970 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.14.1
+00:11:43.973 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.5.1
+00:11:44.182 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:11:44.242 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:11:44.249 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:11:44.702 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:11:50.518 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:11:55.772 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:11:56.145 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/1pzfxxycyaeqaunuq5iv5arqx2aogqtt5jpeydzu to view build report, insights, and many more debugging information all at one place!
+
+00:11:58.296 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:19:25.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.14.1
+00:19:25.833 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.5.1
+00:19:26.062 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:19:26.130 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:19:26.138 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:19:26.586 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:19:32.647 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:19:38.335 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:19:43.875 [customerLogin@0] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:19:44.006 [customerLogin@0] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:19:53.537 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/tg56ewesvtkeed1omlwun7l91tuhyaxgncugf04z to view build report, insights, and many more debugging information all at one place!
+
+00:19:55.612 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:26:01.685 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.14.1
+00:26:01.688 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.5.1
+00:26:01.912 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:26:01.977 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:26:01.982 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:26:02.427 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:26:08.221 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:26:13.613 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:26:13.950 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/k5xh4tscmjqhezpjsnfoe04ljclbuiy9rkqskwo0 to view build report, insights, and many more debugging information all at one place!
+
+00:26:16.201 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:28:05.168 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.14.1
+00:28:05.173 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.5.1
+00:28:05.410 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:28:05.477 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:28:05.484 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:28:05.977 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:28:11.320 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:28:16.723 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:28:17.139 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/runjatwvwqnkyrommyzbkktjxiluy0hpazie16fh to view build report, insights, and many more debugging information all at one place!
+
+00:28:19.562 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:29:09.885 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.14.1
+00:29:09.890 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.5.1
+00:29:10.132 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:29:10.199 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:29:10.206 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:29:10.672 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:29:15.921 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:29:21.498 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:29:22.017 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/aaiiofccoyesc0nmrnf18pdpifjaqmyjjmvyoh8e to view build report, insights, and many more debugging information all at one place!
+
+00:29:24.601 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:31:17.023 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.14.1
+00:31:17.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.5.1
+00:31:17.236 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:31:17.310 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:31:17.317 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:31:17.763 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:31:23.407 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:31:30.049 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:31:30.455 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/0vniu5mardpvokehu7dzgxmw2rdjniqhdsjks9u8 to view build report, insights, and many more debugging information all at one place!
+
+00:31:32.636 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:33:04.882 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.14.1
+00:33:04.886 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 8.5.1
+00:33:05.095 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:33:05.157 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:33:05.163 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:33:05.619 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:33:11.736 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:33:17.103 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:33:20.463 [customerLogin@0] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:33:20.524 [customerLogin@0] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:33:25.769 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/c0rkubjuogtcekcouzf16ran7oqf09xsgkqh2efm to view build report, insights, and many more debugging information all at one place!
+
+00:33:28.065 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:41:22.108 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+00:41:22.111 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:41:22.337 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:41:22.414 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:41:22.422 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:41:22.890 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:41:30.023 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:41:34.929 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:41:46.240 [customerLogin@0] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:41:46.299 [customerLogin@0] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:42:12.109 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/h6gqdk8i5t26fd9vc3rb0fwcwxjfk7nayhsolvpi to view build report, insights, and many more debugging information all at one place!
+
+00:42:12.518 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/e022b3ec1600a4ebc884daae81d6bd045ccd5a11
+00:42:12.518 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:42:14.023 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+00:46:13.421 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+00:46:13.426 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:46:13.655 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:46:13.731 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:46:13.738 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:46:14.249 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:46:20.626 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:46:25.960 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:46:35.154 [Guest User - Plans Availability-0@0] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:46:35.234 [Guest User - Plans Availability-0@0] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:47:16.900 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+00:47:16.905 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:47:17.161 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:47:17.244 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:47:17.251 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:47:17.752 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:47:24.528 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:47:30.350 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:47:39.281 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:47:39.355 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:48:46.990 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+00:48:46.996 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:48:47.264 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:48:47.344 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:48:47.351 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:48:47.895 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:48:53.620 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:48:59.066 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:49:08.729 [Guest User - Plans Availability-0@0] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:49:08.810 [Guest User - Plans Availability-0@0] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:49:55.771 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+00:49:55.776 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:49:56.005 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:49:56.077 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:49:56.083 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:49:56.525 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:50:02.741 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:50:07.775 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:50:16.523 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:50:16.595 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:52:42.143 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+00:52:42.148 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:52:42.427 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:52:42.516 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:52:42.524 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:52:43.005 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:52:49.147 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:52:54.521 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:53:06.940 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:53:07.014 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:55:07.933 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+00:55:07.938 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:55:08.160 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+00:55:08.238 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:55:08.245 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+00:55:08.844 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:55:13.884 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:55:18.916 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:55:28.919 [Guest User - Plans Availability-0@0] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+00:55:28.962 [Guest User - Plans Availability-0@0] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint
+00:58:02.327 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/rwmz3pc99xywfzhc3bv7wcqweaqnlrgcndvcucjj to view build report, insights, and many more debugging information all at one place!
+
+00:58:02.750 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/39817aee2e479b6aaaba855f45b3e95869a1993b
+00:58:02.750 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:58:04.325 [Thread-5] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+01:02:07.333 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.6.0
+01:02:07.336 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+01:02:07.509 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\pratik.hood\eclipse-workspace\PurdyTestAutomation\browserstack.yml
+01:02:07.565 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+01:02:07.572 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+01:02:08.013 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:02:14.214 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:02:19.647 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:02:30.768 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] newPageImpl() not found in com.microsoft.playwright.impl.BrowserContextImpl
+01:02:30.848 [Guest User - Plans Availability-2@2] ERROR c.b.DriverServiceTransformer - [source error] no such field: wsEndpoint

@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T12:13:47 IST" name="Suite" finished-at="2023-12-17T12:14:04 IST" duration-ms="17327">
+  <suite started-at="2023-12-17T23:16:09 IST" name="Default suite" finished-at="2023-12-17T23:16:10 IST" duration-ms="1685">
     <groups>
       <group name="desktop">
-        <method signature="Verify_Login_Page_with_valid_credentials.customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" name="customerLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
-        <method signature="Verify_Login_Page_with_valid_credentials.redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" name="redirectToLoginPage" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="customerLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="redirectToLoginPage" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.homePageValidationAfterLogin(java.util.Hashtable)[pri:2, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="homePageValidationAfterLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
       </group> <!-- desktop -->
       <group name="smokes">
-        <method signature="Verify_Login_Page_with_valid_credentials.customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" name="customerLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
-        <method signature="Verify_Login_Page_with_valid_credentials.redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" name="redirectToLoginPage" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="customerLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="redirectToLoginPage" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.homePageValidationAfterLogin(java.util.Hashtable)[pri:2, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="homePageValidationAfterLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
       </group> <!-- smokes -->
       <group name="regression">
-        <method signature="Verify_Login_Page_with_valid_credentials.customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" name="customerLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
-        <method signature="Verify_Login_Page_with_valid_credentials.redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" name="redirectToLoginPage" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="customerLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="redirectToLoginPage" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
+        <method signature="Verify_Login_Page_with_valid_credentials.homePageValidationAfterLogin(java.util.Hashtable)[pri:2, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" name="homePageValidationAfterLogin" class="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2023-12-17T12:13:47 IST" name="Guest User - Plans Availability" finished-at="2023-12-17T12:14:04 IST" duration-ms="17327">
+    <test started-at="2023-12-17T23:16:09 IST" name="Default test" finished-at="2023-12-17T23:16:10 IST" duration-ms="1685">
       <class name="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials">
-        <test-method is-config="true" signature="generateBuildNumber()[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:13:47 IST" name="generateBuildNumber" finished-at="2023-12-17T12:13:47 IST" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="generateBuildNumber()[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:09 IST" name="generateBuildNumber" finished-at="2023-12-17T23:16:09 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateBuildNumber -->
-        <test-method is-config="true" signature="setUpBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:13:47 IST" name="setUpBrowser" finished-at="2023-12-17T12:13:49 IST" duration-ms="2369" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:09 IST" name="setUpBrowser" finished-at="2023-12-17T23:16:09 IST" duration-ms="604" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -77,7 +80,7 @@
             </param>
             <param index="10">
               <value>
-                <![CDATA[TQA_Regression_Boost_1]]>
+                <![CDATA[AutomationExecution]]>
               </value>
             </param>
             <param index="11">
@@ -106,10 +109,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:149)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:135)
+at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:801)
+at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:13:50 IST" name="beforeMethod" finished-at="2023-12-17T12:13:50 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="beforeMethod" finished-at="2023-12-17T23:16:10 IST" duration-ms="184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +200,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:13:50 IST" name="customerLogin" data-provider="get_Data_Verify_Login_Page_with_valid_credentials" finished-at="2023-12-17T12:14:04 IST" duration-ms="14208" status="PASS">
+        <test-method signature="customerLogin(java.util.Hashtable)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="customerLogin" data-provider="get_Data_Verify_Login_Page_with_valid_credentials" finished-at="2023-12-17T23:16:10 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -128,10 +208,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:149)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:135)
+at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:801)
+at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerLogin -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:14:04 IST" name="afterMethod" finished-at="2023-12-17T12:14:04 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="afterMethod" finished-at="2023-12-17T23:16:10 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,7 +299,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:14:04 IST" name="beforeMethod" finished-at="2023-12-17T12:14:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="beforeMethod" finished-at="2023-12-17T23:16:10 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,7 +310,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:14:04 IST" name="redirectToLoginPage" data-provider="get_Data_Verify_Login_Page_with_valid_credentials" finished-at="2023-12-17T12:14:04 IST" duration-ms="38" status="PASS">
+        <test-method signature="redirectToLoginPage(java.util.Hashtable)[pri:1, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="redirectToLoginPage" data-provider="get_Data_Verify_Login_Page_with_valid_credentials" finished-at="2023-12-17T23:16:10 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -161,10 +318,87 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:149)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:135)
+at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:801)
+at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectToLoginPage -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:14:04 IST" name="afterMethod" finished-at="2023-12-17T12:14:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="afterMethod" finished-at="2023-12-17T23:16:10 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,11 +409,121 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6]" started-at="2023-12-17T12:14:04 IST" name="afterSuite" finished-at="2023-12-17T12:14:05 IST" duration-ms="473" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="beforeMethod" finished-at="2023-12-17T23:16:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials.homePageValidationAfterLogin(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homePageValidationAfterLogin(java.util.Hashtable)[pri:2, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="homePageValidationAfterLogin" data-provider="get_Data_Verify_Login_Page_with_valid_credentials" finished-at="2023-12-17T23:16:10 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'ZIL1280', ip: '192.168.29.236'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 120, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:149)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:135)
+at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:801)
+at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:91)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageValidationAfterLogin -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="afterMethod" finished-at="2023-12-17T23:16:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials.homePageValidationAfterLogin(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b]" started-at="2023-12-17T23:16:10 IST" name="afterSuite" finished-at="2023-12-17T23:16:11 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials -->
-    </test> <!-- Guest User - Plans Availability -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

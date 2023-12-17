@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Guest User - Plans Availability</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Dec 17 12:13:47 IST 2023</td>
+<td>Started on:</td><td>Sun Dec 17 22:57:32 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17327 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1194 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>desktop </td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,15 +76,434 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials.redirectToLoginPage()'><b>redirectToLoginPage</b><br>Test class: com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials<br>Parameters: {EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td>
-<td></td>
+<td title='com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials.setUpBrowser()'><b>setUpBrowser</b><br>Test class: com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials<br>Parameters: chromeDesktop, false, localhost, 4444, test, 10.128.190.5, 9200, ngpautomation, _doc, testing, TQA_Regression_Boost_1, Mac, macOS Catalina, 117, 3840x216, US East</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace698747943", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace698747943'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+</pre></div></td>
 <td>0</td>
-<td>com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6</td></tr>
+<td>com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials.customerLogin()'><b>customerLogin</b><br>Test class: com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials<br>Parameters: {EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td>
-<td></td>
-<td>14</td>
-<td>com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@64ec96c6</td></tr>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace747152360", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace747152360'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b</td></tr>
+<tr>
+<td title='com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials.homePageValidationAfterLogin()'><b>homePageValidationAfterLogin</b><br>Test class: com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials<br>Parameters: {EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1485208789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1485208789'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b</td></tr>
+<tr>
+<td title='com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials.redirectToLoginPage()'><b>redirectToLoginPage</b><br>Test class: com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials<br>Parameters: {EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace553056396", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace553056396'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;ZIL1280&apos;, ip: &apos;192.168.29.236&apos;
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}]}]
+Capabilities {browserName: Chrome, browserVersion: 118, location: US East, platformName: windows, platformVersion: 10, resolution: 1440x900, securityToken: eyJhbGciOiJIUzI1NiIsInR5cCI...}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:143)
+	at com.perficient.util.TestCaseBase.setUpChromeWin32Desktop(TestCaseBase.java:799)
+	at com.perficient.util.TestCaseBase.selectBrowser(TestCaseBase.java:246)
+	at com.perficient.util.TestCaseBase.setUpBrowser(TestCaseBase.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [location, platformVersion, resolution, securityToken]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$4(NewSessionPayload.java:184)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:441)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:188)
+	at org.openqa.selenium.remote.NewSessionPayload.&lt;init&gt;(NewSessionPayload.java:91)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:127)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials@fd8294b</td></tr>
 </table><p>
 </body>
 </html>

@@ -4,8 +4,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import ru.yandex.qatools.ashot.comparison.ImageDiff;
-import ru.yandex.qatools.ashot.comparison.ImageDiffer;
+//import ru.yandex.qatools.ashot.comparison.ImageDiff;
+//import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 import org.openqa.selenium.io.FileHandler;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.logging.Log;
@@ -56,7 +56,7 @@ import org.openqa.selenium.support.Color;
 public class PageManager {
 	public static File file;
 	public static File expectedFile;
-	public static ImageDiff diff;
+	//public static ImageDiff diff;
 	public static BufferedImage  actualImage;
 	public static BufferedImage  expectedImage;
 	public static File actualImageFile;
@@ -848,7 +848,7 @@ public class PageManager {
 	 * @param drivername
 	 * @return
 	 */
-	public String snapshot(TakesScreenshot drivername) {
+	public String snapshot(TakesScreenshot drivername) throws IOException {
 		String currentPath = "./test-output/errorImages";
 		String returnPath = "./errorImages";
 		File scrFile = drivername.getScreenshotAs(OutputType.FILE);
@@ -861,9 +861,6 @@ public class PageManager {
 			log.info("save snapshot path is:" + currentPath + separator + getDatetime() + ".png");
 			FileUtils.copyFile(scrFile, new File(currentPath + separator + getDatetime() + ".png"));
 			FileUtils.copyFile(scrFile, new File(returnPath + separator + getDatetime() + ".png"));
-		} catch (IOException exception) {
-			log.error("Can't save screenshot");
-			return "";
 		} finally {
 			return returnPath + separator + getDatetime() + ".png";
 		}
@@ -889,8 +886,14 @@ public class PageManager {
 	 * @param element
 	 */
 	public void exceptionPrintError(Exception exception, WebElement element) {
-		String path = snapshot((TakesScreenshot) driver);
+		String path;
 		try {
+			path = snapshot((TakesScreenshot) driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		/*try {
 			if (exception.toString().contains("StaleElementReferenceException") && element != null) {
 				test.log(Status.FAIL, ErrorType.ELEMENT_STALE + element.toString() + exception.toString()
 						+ "\nScreencast below: " + test.addScreenCaptureFromPath(path));
@@ -915,7 +918,7 @@ public class PageManager {
 			}
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
-		}
+		}*/
 	}
 
 	/**
@@ -1000,13 +1003,19 @@ public class PageManager {
 	 * @param elements
 	 */
 	public void elementPrintError(Object e, List<WebElement> elements) {
-		String path = snapshot((TakesScreenshot) driver);
+		String path;
 		try {
-			test.log(Status.FAIL, ErrorType.ELEMENT_NOTFOUND + elements.toString() + "\n" + e
+			path = snapshot((TakesScreenshot) driver);
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		/*try {
+			/*test.log(Status.FAIL, ErrorType.ELEMENT_NOTFOUND + elements.toString() + "\n" + e
 					+ "\nScreencast below: " + test.addScreenCaptureFromPath(path));
 			} catch (IOException ioException) {
 				ioException.printStackTrace();
-			}
+			}*/
 		} 
 
 	/**
@@ -2123,7 +2132,7 @@ public class PageManager {
 	 * @param
 	 * @return
 	 */
-	public String snapshot() {
+	public String snapshot() throws IOException {
 		String currentPath = "./test-output/errorImages";
 		String returnPath = "./errorImages";
 		TakesScreenshot drivername =((TakesScreenshot)driver);
@@ -2152,9 +2161,6 @@ public class PageManager {
 				log.info("save snapshot path is:" + currentPath + separator + name + "2.png");
 				FileUtils.copyFile(scrFile2, new File(currentPath + separator + name + "2.png"));
 				FileUtils.copyFile(scrFile2, new File(returnPath + separator + name + "2.png"));
-			} catch (IOException exception) {
-				System.out.println("Can't save screenshot");
-				return "";
 			} finally {
 				System.out.println("screen shot finished, it's in " + currentPath + " folder");
 				String path = returnPath + "/" + name + ".png" +"@@@"+returnPath+ "/" + name + "2.png"; 
@@ -2170,9 +2176,6 @@ public class PageManager {
 				log.info("save snapshot path is:" + currentPath + separator + name2 + ".png");
 				FileUtils.copyFile(scrFile, new File(currentPath + separator + name2 + ".png"));
 				FileUtils.copyFile(scrFile, new File(returnPath + separator + name2 + ".png"));
-			} catch (IOException exception) {
-				System.out.println("Can't save screenshot");
-				return "";
 			} finally {
 				System.out.println("screen shot finished, it's in " + currentPath + " folder");
 				return returnPath + separator + name2 + ".png";
@@ -2706,7 +2709,7 @@ public class PageManager {
 	/*
 	 * This method is use to compare the actual image with the expected one
 	*/
-	public void screenshotComparison(WebElement element, String store) {
+	/*public void screenshotComparison(WebElement element, String store) {
 		try {
 			
 			JavascriptExecutor executor = (JavascriptExecutor) driver;
@@ -2757,7 +2760,7 @@ public class PageManager {
 			exceptionPrintError(exception, element);
 		}
 		
-	}
+	}*/
 	
 	
 	
@@ -2829,7 +2832,7 @@ public class PageManager {
 	}
 	
 	
-	public void entirePageScreenshotComparison(String store) throws Exception {
+	/*public void entirePageScreenshotComparison(String store) throws Exception {
 
 			File actualFile =  ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		    BufferedImage  actualImage = ImageIO.read(actualFile);
@@ -2921,5 +2924,5 @@ public class PageManager {
 				test.log(Status.PASS, "actual and expected image are same");
 			}
 	
-	}}
+	}*/}
 

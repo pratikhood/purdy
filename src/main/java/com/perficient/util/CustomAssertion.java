@@ -249,9 +249,9 @@ public class CustomAssertion {
 			returnPath = returnPath.replace("\\", "/");
 		}
 		if (test)
-		{
-			String name = getDatetime();
-			try {
+		//{
+			//String name = getDatetime();
+			/*try {
 			scrollBarPresent.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
 			File scrFile = drivername.getScreenshotAs(OutputType.FILE);
 			
@@ -272,12 +272,12 @@ public class CustomAssertion {
 				return path;
 			}
 			
-		}
-		else
+		}*/
+		//else
 		{
 			File scrFile = drivername.getScreenshotAs(OutputType.FILE);
 			String name2 = getDatetime();
-			try {
+			/*try {
 				System.out.println("save snapshot path is:" + currentPath + "\\" + name2 + ".png");
 				FileUtils.copyFile(scrFile, new File(currentPath + "\\" + name2 + ".png"));
 				FileUtils.copyFile(scrFile, new File(returnPath + "\\" + name2 + ".png"));
@@ -287,8 +287,9 @@ public class CustomAssertion {
 			} finally {
 				System.out.println("screen shot finished, it's in " + currentPath + " folder");
 				return returnPath + "\\" + name2 + ".png";
-			}
+			}*/
 		}
+		return userPath;
 	}
 
 	

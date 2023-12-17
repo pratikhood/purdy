@@ -1,0 +1,15 @@
+# Created at 2023-12-18T01:02:29.220
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2023-12-18T01:02:29.221
+WARNING: Illegal reflective access by org.apache.poi.openxml4j.util.ZipSecureFile$1 (file:/C:/Users/pratik.hood/.m2/repository/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar) to field java.io.FilterInputStream.in
+
+# Created at 2023-12-18T01:02:29.223
+WARNING: Please consider reporting this to the maintainers of org.apache.poi.openxml4j.util.ZipSecureFile$1
+
+# Created at 2023-12-18T01:02:29.224
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2023-12-18T01:02:29.225
+WARNING: All illegal access operations will be denied in a future release
+
