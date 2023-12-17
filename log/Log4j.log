@@ -1,0 +1,138 @@
+[20/01/06 12:03:21][INFO][com.perficient.util.TestCaseBase-99] running TEST Case:com.perficient.testCases.SampleSignInMobile
+[20/01/06 12:03:21][INFO][com.perficient.util.TestCaseBase-181] onGrid=false
+[20/01/06 12:03:21][INFO][com.perficient.util.TestCaseBase-182] browserFlag=mobileByBrowserStack
+[20/01/06 12:03:34][INFO][com.perficient.util.TestCaseBase-401] Setting...filename=testdata_SampleSignInMobile.properties
+[20/01/06 12:03:34][INFO][com.perficient.util.LogWebdriverEventListener-19] WebDriver navigating to:'https://magento.perficientdcsdemo.com/'
+[20/01/06 12:04:10][ERROR][com.perficient.util.LogWebdriverEventListener-39] WebDriver error:
+org.openqa.selenium.WebDriverException: Appium error: An unknown server-side error occurred while processing the command. Original error: Did not get any response after 20s (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZIL452', ip: '10.112.37.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: true, acceptSslCerts: true, appium_port: 8080, autoAcceptAlerts: true, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browser_name: iPhone, browserstack.appiumLogs: true, browserstack.appium_version: 1.14.0, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.isTargetBased: true, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, buildName: v2, databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 11 Pro, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11 Pro-13.2}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 13, os_version: 13, platform: MAC, platformName: MAC, platformVersion: 12.1, projectName: Browser Stack Example, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionName: Browser Stack Sample Test, takesScreenshot: true, udid: 00008030-00026C690A82802E, useXctestrunFile: true, version: , wda_port: 8400, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: ebe0f41114db9c755be62609e39ba0606ebe44f5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy13.getTitle(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getTitle(EventFiringWebDriver.java:176)
+	at com.perficient.util.PageManager.getTitle(PageManager.java:280)
+	at com.perficient.testCases.SampleSignInMobile.signIn(SampleSignInMobile.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+[20/01/06 12:04:10][INFO][com.perficient.util.TestCaseBase-129] pass
+[20/01/06 12:04:10][INFO][com.perficient.util.TestCaseBase-290] 2020.01.06_12.03 DemoPerficientGDCFrameworkUpdated  testCases SampleSignInMobile [Ljava.lang.String;@4ff4357f FAIL mobileByBrowserStack
+[20/01/06 12:33:22][INFO][com.perficient.util.TestCaseBase-99] running TEST Case:com.perficient.testCases.SampleSignInMobile
+[20/01/06 12:33:22][INFO][com.perficient.util.TestCaseBase-181] onGrid=false
+[20/01/06 12:33:22][INFO][com.perficient.util.TestCaseBase-182] browserFlag=mobileByBrowserStack
+[20/01/06 12:33:36][INFO][com.perficient.util.TestCaseBase-401] Setting...filename=testdata_SampleSignInMobile.properties
+[20/01/06 12:33:36][INFO][com.perficient.util.LogWebdriverEventListener-19] WebDriver navigating to:'https://magento.perficientdcsdemo.com/'
+[20/01/06 12:34:09][INFO][com.perficient.util.LogWebdriverEventListener-19] WebDriver navigating to:'https://magento.perficientdcsdemo.com/customer/account/login/'
+[20/01/06 12:34:25][INFO][com.perficient.util.LogWebdriverEventListener-62] WebDriver found By.xpath: //input[@id='email']
+[20/01/06 12:34:26][INFO][com.perficient.util.LogWebdriverEventListener-62] WebDriver found By.xpath: //input[@id='email']
+[20/01/06 12:34:26][INFO][com.perficient.util.LogWebdriverEventListener-62] WebDriver found By.xpath: //input[@id='email']
+[20/01/06 12:34:27][INFO][com.perficient.util.LogWebdriverEventListener-62] WebDriver found By.xpath: //input[@id='pass']
+[20/01/06 12:34:27][INFO][com.perficient.util.LogWebdriverEventListener-62] WebDriver found By.xpath: //input[@id='pass']
+[20/01/06 12:34:28][INFO][com.perficient.util.LogWebdriverEventListener-62] WebDriver found By.xpath: //input[@id='pass']
+[20/01/06 12:34:28][INFO][com.perficient.util.LogWebdriverEventListener-62] WebDriver found By.xpath: //button[@id='send2']
+[20/01/06 12:34:28][INFO][com.perficient.util.LogWebdriverEventListener-50] WebDriver clicking on[[RemoteWebDriver: safari on MAC (c4bbad96def267076243c16096269e99a452f1ab)] -> xpath: //button[@id='send2']]
+[20/01/06 12:34:48][ERROR][com.perficient.util.LogWebdriverEventListener-39] WebDriver error:
+org.openqa.selenium.WebDriverException: Appium error: An unknown server-side error occurred while processing the command. Original error: Did not get any response after 20s (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ZIL452', ip: '10.112.37.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {64bit: false, acceptSslCert: true, acceptSslCerts: true, appium_port: 8081, autoAcceptAlerts: true, automationName: XCUITest, bootstrapPath: /usr/local/.browserstack/co..., browser: iphone, browserName: safari, browser_name: iPhone, browserstack.appiumLogs: true, browserstack.appium_version: 1.14.0, browserstack.debug: false, browserstack.ie.noFlash: false, browserstack.isTargetBased: true, browserstack.tunnelIdentifier: , browserstack.video: true, browserstack.video.disableWaterMark: false, buildName: v2, databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: iphone, deviceName: iPhone 11 Pro, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: iPhone 11 Pro-13.2}, networkConnectionEnabled: false, newCommandTimeout: 300, noReset: true, orientation: PORTRAIT, orig_os: ios, osVersion: 13, os_version: 13, platform: MAC, platformName: MAC, platformVersion: 12.1, projectName: Browser Stack Example, proxy_type: node, realMobile: true, real_mobile: true, safariIgnoreFraudWarning: true, safariInitialUrl: http://mobile-internet-chec..., sessionName: Browser Stack Sample Test, takesScreenshot: true, udid: 00008030-0019542E3A04802E, useXctestrunFile: true, version: , wda_port: 8401, webStorageEnabled: false, webkitResponseTimeout: 20000}
+Session ID: c4bbad96def267076243c16096269e99a452f1ab
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.perficient.util.PageManager.click(PageManager.java:337)
+	at com.perficient.com.perficient.baseclasses.MagentoSignInPage.signIn(MagentoSignInPage.java:54)
+	at com.perficient.testCases.SampleSignInMobile.signIn(SampleSignInMobile.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+[20/01/06 12:34:48][INFO][com.perficient.util.TestCaseBase-129] pass
+[20/01/06 12:34:48][INFO][com.perficient.util.TestCaseBase-290] 2020.01.06_12.33 PerficientNagpurGDCFramework  testCases SampleSignInMobile [Ljava.lang.String;@54c62d71 FAIL mobileByBrowserStack
