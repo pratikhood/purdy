@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Guest User - Plans Availability</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,137</td><td>desktop</td><td></td></tr>
+<tr><th colspan="8">Suite (0)</th></tr>
+<tr class="stripe"><td><a href="#t1">Guest User - Plans Availability</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">58,569</td><td>mobile</td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">103,706</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Guest User - Plans Availability &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials</td><td><a href="#m0">afterSuite</a></td><td rowspan="1">1702823790429</td><td rowspan="1">377</td></tr><tr><th colspan="4">Guest User - Plans Availability &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials</td><td><a href="#m1">customerLogin</a></td><td rowspan="1">1702823748465</td><td rowspan="1">13413</td></tr><tr class="passedeven"><td><a href="#m2">homePageValidationAfterLogin</a></td><td rowspan="1">1702823775913</td><td rowspan="1">14487</td></tr><tr class="passedeven"><td><a href="#m3">redirectToLoginPage</a></td><td rowspan="1">1702823761952</td><td rowspan="1">13906</td></tr></tbody>
+<tbody><tr><th colspan="4">Suite (0)</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Guest User - Plans Availability &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials</td><td><a href="#m4">afterSuite</a></td><td rowspan="1">1702823849399</td><td rowspan="1">2</td></tr><tr><th colspan="4">Guest User - Plans Availability &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials</td><td><a href="#m5">customerLogin</a></td><td rowspan="1">1702823792492</td><td rowspan="1">13027</td></tr><tr class="passedeven"><td><a href="#m6">homePageValidationAfterLogin</a></td><td rowspan="1">1702823826635</td><td rowspan="1">22748</td></tr><tr class="passedeven"><td><a href="#m7">redirectToLoginPage</a></td><td rowspan="1">1702823805585</td><td rowspan="1">21011</td></tr></tbody>
+</table>
+<h2>Guest User - Plans Availability</h2><h3 id="m0">com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials#afterSuite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">net.lingala.zip4j.exception.ZipException: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+	at net.lingala.zip4j.zip.ZipEngine.initAddFiles(ZipEngine.java:187)
+	at net.lingala.zip4j.zip.ZipEngine.addFiles(ZipEngine.java:85)
+	at net.lingala.zip4j.core.ZipFile.addFiles(ZipFile.java:292)
+	at net.lingala.zip4j.core.ZipFile.addFile(ZipFile.java:250)
+	at com.perficient.util.ZipAndMail.convertToZip(ZipAndMail.java:65)
+	at com.perficient.util.TestCaseBase.zipAndMail(TestCaseBase.java:1012)
+	at com.perficient.util.TestCaseBase.afterSuite(TestCaseBase.java:219)
+Caused by: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
+	at java.base/java.io.RandomAccessFile.&lt;init&gt;(RandomAccessFile.java:260)
+	at java.base/java.io.RandomAccessFile.&lt;init&gt;(RandomAccessFile.java:215)
+	at net.lingala.zip4j.io.SplitOutputStream.&lt;init&gt;(SplitOutputStream.java:57)
+	at net.lingala.zip4j.zip.ZipEngine.initAddFiles(ZipEngine.java:113)
+	... 29 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials#customerLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials#homePageValidationAfterLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials#redirectToLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Guest User - Plans Availability</h2><h3 id="m4">com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials#afterSuite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">net.lingala.zip4j.exception.ZipException: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+	at net.lingala.zip4j.zip.ZipEngine.initAddFiles(ZipEngine.java:187)
+	at net.lingala.zip4j.zip.ZipEngine.addFiles(ZipEngine.java:85)
+	at net.lingala.zip4j.core.ZipFile.addFiles(ZipFile.java:292)
+	at net.lingala.zip4j.core.ZipFile.addFile(ZipFile.java:250)
+	at com.perficient.util.ZipAndMail.convertToZip(ZipAndMail.java:65)
+	at com.perficient.util.TestCaseBase.zipAndMail(TestCaseBase.java:1012)
+	at com.perficient.util.TestCaseBase.afterSuite(TestCaseBase.java:219)
+Caused by: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:346)
+	at java.base/java.io.RandomAccessFile.&lt;init&gt;(RandomAccessFile.java:260)
+	at java.base/java.io.RandomAccessFile.&lt;init&gt;(RandomAccessFile.java:215)
+	at net.lingala.zip4j.io.SplitOutputStream.&lt;init&gt;(SplitOutputStream.java:57)
+	at net.lingala.zip4j.zip.ZipEngine.initAddFiles(ZipEngine.java:113)
+	... 29 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials#customerLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials#homePageValidationAfterLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials#redirectToLoginPage</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{EmailID=pratikhood001@gmail.com, Password=Aali@123, HomePageTitle=Chocolate Shop | Chocolate | Purdys Chocolatier, LoginPageTitle=Customer Login}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

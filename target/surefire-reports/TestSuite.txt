@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 105.12 s <<< FAILURE! - in TestSuite
+afterSuite(com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 14.9 s  <<< FAILURE!
+net.lingala.zip4j.exception.ZipException: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+
+afterSuite(com.perficient.testCases.Mobile.purdy.Verify_Login_Page_with_valid_credentials)  Time elapsed: 22.765 s  <<< FAILURE!
+net.lingala.zip4j.exception.ZipException: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: .\test-output\Report-Stage-TQA_Regression_Boost_1-2023.12.17_08.05.48.zip (The system cannot find the path specified)
+
