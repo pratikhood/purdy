@@ -73,7 +73,7 @@ public class TestCaseBase {
 	private static int firefoxCountCurrent = 0;
 	private static int chromeCountCurrent = 0;
 	private static int safariCountCurrent = 0;
-	private LogWebdriverEventListener eventListener;
+	
 	protected Log log = LogFactory.getLog(this.getClass());
 	protected EventFiringWebDriver driver;
 	private String clientEmail;
@@ -162,9 +162,7 @@ public class TestCaseBase {
 			}
 		}
 
-		eventListener = new LogWebdriverEventListener();
-		driver = new EventFiringWebDriver(driver_original);
-		driver.register(eventListener);
+		
 		
 		
 		if (browserFlag.equals("ie") || browserFlag.equals("chrome") || browserFlag.equals("firefox") || browserFlag.equals("safari") || browserFlag.equals("edge")) 
