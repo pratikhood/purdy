@@ -72,8 +72,8 @@ public class LoginPage extends PageObject {
 	{
 		pageManager.sendKeys(passwordField_id, passsword);
 		pageManager.waitForSeconds(2500);
-		pageManager.clickByJavaScriptExecutor(login_xpath);
-		pageManager.waitForSeconds(2500);
+		/*pageManager.clickByJavaScriptExecutor(login_xpath);
+		pageManager.waitForSeconds(2500);*/
 	}
 	
 

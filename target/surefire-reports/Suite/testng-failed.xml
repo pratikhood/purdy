@@ -11,7 +11,8 @@
         <methods>
           <include name="setUpBrowser"/>
           <include name="beforeMethod"/>
-          <include name="redirectToLoginPage" invocation-numbers="0"/>
+          <include name="customerLogin"/>
+          <include name="redirectToLoginPage"/>
           <include name="generateBuildNumber"/>
           <include name="tearDown"/>
           <include name="homePageValidationAfterLogin"/>
@@ -21,25 +22,6 @@
       </class> <!-- com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials -->
     </classes>
   </test> <!-- Guest User - Plans Availability-1(failed) -->
-  <test thread-count="3" name="Guest User - Plans Availability-2(failed)" verbose="0">
-    <parameter name="browserUsed" value="chromeDesktop"/>
-    <parameter name="environment" value="test"/>
-    <parameter name="suiteReportName" value="TQA_Regression_Boost_1"/>
-    <parameter name="platform" value="2"/>
-    <classes>
-      <class name="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials">
-        <methods>
-          <include name="setUpBrowser"/>
-          <include name="beforeMethod"/>
-          <include name="generateBuildNumber"/>
-          <include name="tearDown"/>
-          <include name="homePageValidationAfterLogin" invocation-numbers="0"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-        </methods>
-      </class> <!-- com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials -->
-    </classes>
-  </test> <!-- Guest User - Plans Availability-2(failed) -->
   <test thread-count="3" name="Guest User - Plans Availability-0(failed)" verbose="0">
     <parameter name="browserUsed" value="chromeDesktop"/>
     <parameter name="environment" value="test"/>
@@ -50,13 +32,36 @@
         <methods>
           <include name="setUpBrowser"/>
           <include name="beforeMethod"/>
+          <include name="customerLogin"/>
+          <include name="redirectToLoginPage"/>
           <include name="generateBuildNumber"/>
           <include name="tearDown"/>
-          <include name="homePageValidationAfterLogin" invocation-numbers="0"/>
+          <include name="homePageValidationAfterLogin"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials -->
     </classes>
   </test> <!-- Guest User - Plans Availability-0(failed) -->
+  <test thread-count="3" name="Guest User - Plans Availability-2(failed)" verbose="0">
+    <parameter name="browserUsed" value="chromeDesktop"/>
+    <parameter name="environment" value="test"/>
+    <parameter name="suiteReportName" value="TQA_Regression_Boost_1"/>
+    <parameter name="platform" value="2"/>
+    <classes>
+      <class name="com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials">
+        <methods>
+          <include name="setUpBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="customerLogin"/>
+          <include name="redirectToLoginPage"/>
+          <include name="generateBuildNumber"/>
+          <include name="tearDown"/>
+          <include name="homePageValidationAfterLogin"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.perficient.testCases.Desktop.purdy.Verify_Login_Page_with_valid_credentials -->
+    </classes>
+  </test> <!-- Guest User - Plans Availability-2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

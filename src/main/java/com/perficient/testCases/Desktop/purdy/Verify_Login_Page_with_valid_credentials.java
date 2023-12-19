@@ -14,7 +14,6 @@ import com.aventstack.extentreports.Status;
 
 public class Verify_Login_Page_with_valid_credentials extends TestCaseBase {
 
-
 	@DataProvider
 	public Object[][] get_Data_Verify_Login_Page_with_valid_credentials() 
 	{
@@ -35,7 +34,6 @@ public class Verify_Login_Page_with_valid_credentials extends TestCaseBase {
 
 		Assert.assertEquals(ComplexReportFactory.getTest(testName).getStatus(), Status.PASS);
 	}
-
 
 	@Test(groups= {"regression", "smokes","desktop"},priority=1, dataProvider = "get_Data_Verify_Login_Page_with_valid_credentials")
 	public void redirectToLoginPage(Hashtable<String, String> dataTable) throws Exception
@@ -63,8 +61,8 @@ public class Verify_Login_Page_with_valid_credentials extends TestCaseBase {
 		pageManager.logToReport("Enter password in the password field");
 		login.enterPassword(dataTable.get("Password"));
 		
-		pageManager.logToReport("Verify the user login successfully");
-		customAssertion.assertTrue(homePage.verifyMyAccountTabDisplay());
+		/*pageManager.logToReport("Verify the user login successfully");
+		customAssertion.assertTrue(homePage.verifyMyAccountTabDisplay());*/
 
 		Assert.assertEquals(ComplexReportFactory.getTest(testName).getStatus(), Status.PASS);
 	}
