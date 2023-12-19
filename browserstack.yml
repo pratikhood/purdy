@@ -46,6 +46,8 @@ platforms:
 browserstackLocal: true
 buildName: browserstack-build-1
 projectName: BrowserStack Sample
+
+
     
 # =======================
 # Parallels per Platform

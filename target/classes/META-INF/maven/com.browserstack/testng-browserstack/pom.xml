@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.browserstack</groupId>
             <artifactId>browserstack-java-sdk</artifactId>
-            <version>${browserstack.version}</version>
+            <version>LATEST</version>
             <scope>compile</scope>
         </dependency>
        
@@ -211,7 +211,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${compiler.version}</version>
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
@@ -230,7 +229,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>${config.file}</suiteXmlFile>
+                                <suiteXmlFile>config/Desktop_testngBoost_Functional.testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <argLine>
                                 -javaagent:${com.browserstack:browserstack-java-sdk:jar}
